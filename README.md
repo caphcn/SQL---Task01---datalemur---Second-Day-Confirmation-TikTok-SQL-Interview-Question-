@@ -49,7 +49,7 @@ FROM
   FROM emails
   LEFT JOIN texts ON emails.email_id = texts.email_id
   ) AS new_table
-WHERE between_day = 1
+WHERE between_day = 1;
 ```
 ## My Results
 |**user_id**|
